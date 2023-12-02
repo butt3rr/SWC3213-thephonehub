@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D1BB91"
+    tools:context=".AboutUs">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="309dp"
+        android:layout_height="111dp"
+        android:text="The Phone Hub is business established since 2020 that provides the latest iPhone installment plan with low interest rate without credit or debit card. Now, everyone can own a guaranteed authentic iPhone."
+        android:textAlignment="center"
+        android:textColor="#290303"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.133" />
+
+    <TextView
+        android:id="@+id/faqA1"
+        android:layout_width="377dp"
+        android:layout_height="417dp"
+        android:text="With an established financial institution, The Phone Hub offers all customers to purchase phone via installment plan, even without credit card.\n\n
+The requirements are as followed:\n
+1. Malaysian citizen\n
+2. Working for at least 12 months\n
+3. Salary minimum of RM1,000.00\n
+4. Able to provide office number\n
+5. Not blacklisted by any financial institution\n\n
+If you meet the above requirements, please fill in installment application form in our mobile application. \n
+Installment can be made for 12, 24 or 36 months only.\n
+Minimum purchase of RM1000 (total) is required.\n
+There will be an interest charged into every month installment fee of 1.2%.\n
+Applicants will be informed once the request is successful and can come to our outlet (Pandan Jaya) to collect the item purchased.\n
+Terms and conditions apply."
+        android:textColor="#290303"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.703" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Who are we?"
+        android:textAllCaps="true"
+        android:textColor="#290303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.079" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="Our Services"
+        android:textAllCaps="true"
+        android:textColor="#290303"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.275" />
+
+    <Button
+        android:id="@+id/btnMainMenu"
+        android:layout_width="129dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#A33F2D"
+        android:text="Main Menu"
+        android:textColor="#FFFFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.897" />
+</androidx.constraintlayout.widget.ConstraintLayout>

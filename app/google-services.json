@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "722897075735",
+    "firebase_url": "https://thephonehub-b46a6-default-rtdb.asia-southeast1.firebasedatabase.app/",
+    "project_id": "thephonehub-b46a6",
+    "storage_bucket": "thephonehub-b46a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722897075735:android:83cd26024d0610a44a2652",
+        "android_client_info": {
+          "package_name": "com.example.thephonehub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqErQYxIdXOCLXxEGm4TNI1wp6A2kwROg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

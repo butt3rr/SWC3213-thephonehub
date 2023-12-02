@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etIc"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="IC Number"
+         />
+
+    <EditText
+        android:id="@+id/etPhoneNum"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Number"
+         />
+
+    <EditText
+        android:id="@+id/etSalary"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Monthly Salary"
+         />
+
+    <EditText
+        android:id="@+id/etDuration"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Duration"
+         />
+
+    <EditText
+        android:id="@+id/etPhoneModel"
+        android:layout_width="387dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Phone Model"
+ />
+
+
+    <Button
+        android:id="@+id/btnUpdateData"
+        style="@style/Widget.AppCompat.Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#A33F2D"
+        android:text="Update Data"
+        android:textColor="#FFFFFF" />
+
+
+</LinearLayout>
+
